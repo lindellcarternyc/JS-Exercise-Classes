@@ -193,7 +193,7 @@ describe('Instance of Person', () => {
     })
   })
   
-  describe.only('Instances of Student', () => {
+  describe('Instances of Student', () => {
     let student
     beforeEach(() => {
       student = new functions.Student(studentAttr)
