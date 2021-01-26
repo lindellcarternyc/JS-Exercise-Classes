@@ -132,7 +132,7 @@ describe('Instance of Person', () => {
     gradClassName: 'Web25',
     favInstructor: 'Luis'
   }
-  describe.only('Instance of Lambdasian', () => {
+  describe('Instance of Lambdasian', () => {
     let lambdasian
     beforeEach(() => {
       lambdasian = new functions.Lambdasian(lambdasianAttr)
@@ -193,7 +193,7 @@ describe('Instance of Person', () => {
     })
   })
   
-  describe('Instances of Student', () => {
+  describe.only('Instances of Student', () => {
     let student
     beforeEach(() => {
       student = new functions.Student(studentAttr)
